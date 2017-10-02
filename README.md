@@ -44,13 +44,13 @@ Missing Attribute Values: None
 ```
 <hr>
 
-```
-Procedure:
-1.According to the training data there were 7 classes into which animals were classified.
-2.We used one vs all method as mentioned in the question. So, in the training data first we considered all the instances with classification as class 1 as positive and rest as negative.
-3.Now to generate the specific boundary we first considered only the positive examples and neglected the negative examples. Hence the specific boundary was generated using the Candidate Elimination Algorithm. Then we generated the general boundary considering the negative examples using the algorithm.
-4.The same logic was repeated for all the classes.
-```
+
+**Procedure:**
+1. According to the training data there were 7 classes into which animals were classified.
+2. We used one vs all method as mentioned in the question. So, in the training data first we considered all the instances with classification as class 1 as positive and rest as negative.
+3. Now to generate the specific boundary we first considered only the positive examples and neglected the negative examples. Hence the specific boundary was generated using the Candidate Elimination Algorithm. Then we generated the general boundary considering the negative examples using the algorithm.
+4. The same logic was repeated for all the classes.
+
 <hr>
 
 ```
