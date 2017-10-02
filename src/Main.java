@@ -14,12 +14,9 @@ public class Main {
 		while((s=br.readLine())!=null){
 			StringTokenizer st = new StringTokenizer(s,",");
 			int n = st.countTokens();
-			
-			// remove this line if 0th attribute is also used in classification
-			st.nextToken();//name
-			String[] trainingInstance = new String[n-1];
-			for(int i = 1; i < n; i++){
-				trainingInstance[i-1] = st.nextToken();
+			String[] trainingInstance = new String[n];
+			for(int i = 0; i < n; i++){
+				trainingInstance[i] = st.nextToken();
 			}
 			trainingData.add(trainingInstance);
 		}
@@ -44,6 +41,7 @@ public class Main {
 		}
 		
 		//Find concept hypothesis for class=1 to class=7
+		//NOTE: if you have only yes/no in classification than change i<=7 to i<=1 and replace yes by 1 and no by 0
 		for(int i = 1; i <= 7; i++){
 			System.out.println("\n*****For Class = "+i+"*****");
 			Collections.sort(trainingData, new Comp(i)); // sort such that first all positive examples come then all negative
