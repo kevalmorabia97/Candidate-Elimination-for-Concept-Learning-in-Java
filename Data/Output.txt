@@ -1,0 +1,76 @@
+
+*****For Class = 1*****
+Specific Boundary for Class 1
+[all, 0, all, 1, all, all, all, all, 1, 1, 0, all, all, all, all, all]
+Generic Boundary for Class 1
+[all, all, all, 1, all, all, all, all, all, all, all, all, all, all, all, all]
+
+*****For Class = 2*****
+Specific Boundary for Class 2
+[0, 1, 1, 0, all, all, all, 0, 1, 1, 0, 0, 2, 1, all, all]
+Generic Boundary for Class 2
+[all, 1, all, all, all, all, all, all, all, all, all, all, all, all, all, all]
+[0, all, all, all, all, all, all, all, all, all, all, all, 2, all, all, all]
+[all, all, 1, all, all, all, all, all, all, all, all, all, 2, all, all, all]
+[all, all, all, all, all, all, all, 0, all, all, all, all, 2, all, all, all]
+[all, all, all, 0, all, all, all, all, all, all, all, all, 2, all, all, all]
+
+*****For Class = 3*****
+Current Specific Boundary: [0, 0, all, 0, 0, all, all, all, 1, all, all, 0, all, 1, 0, all]
+INCONSISTENT DATA: [0, 0, 1, 0, 0, 1, 1, 1, 1, 1, 0, 0, 4, 1, 0, 0, 5]
+Concept cannot be learned
+
+*****For Class = 4*****
+Specific Boundary for Class 4
+[0, 0, 1, 0, 0, 1, all, 1, 1, 0, all, 1, 0, 1, all, all]
+Generic Boundary for Class 4
+[all, all, 1, all, all, all, all, all, all, all, all, 1, all, all, all, all]
+[all, all, all, 0, all, all, all, all, all, all, all, 1, all, all, all, all]
+[all, all, all, all, all, all, all, all, all, 0, all, 1, all, all, all, all]
+[all, all, 1, all, all, all, all, 1, all, 0, all, all, all, all, all, all]
+[all, all, 1, all, all, all, all, all, 1, 0, all, all, all, all, all, all]
+[all, all, 1, all, all, all, all, all, all, 0, all, all, all, 1, all, all]
+[all, all, 1, all, all, 1, all, 1, all, all, all, all, 0, all, all, all]
+[all, all, 1, all, all, 1, all, all, 1, all, all, all, 0, all, all, all]
+[all, all, 1, all, all, 1, all, all, all, all, all, all, 0, 1, all, all]
+
+*****For Class = 5*****
+Specific Boundary for Class 5
+[0, 0, 1, 0, 0, 1, all, 1, 1, 1, all, 0, 4, all, 0, 0]
+Generic Boundary for Class 5
+[all, all, 1, all, all, 1, all, 1, all, all, all, 0, all, all, all, all]
+[all, all, all, all, 0, 1, all, all, all, 1, all, all, all, all, all, 0]
+[all, 0, all, 0, all, 1, all, all, all, 1, all, all, all, all, all, all]
+[all, 0, all, all, all, 1, all, all, all, 1, all, all, all, all, all, 0]
+[all, all, 1, all, all, 1, all, 1, all, 1, all, all, all, all, all, all]
+[all, all, all, 0, all, 1, all, 1, all, 1, all, all, all, all, all, all]
+[all, all, all, all, all, 1, all, 1, all, 1, all, all, all, all, all, 0]
+[0, 0, 1, all, all, 1, all, all, all, 1, all, all, all, all, all, all]
+[0, 0, all, all, all, 1, all, all, all, 1, all, 0, all, all, all, all]
+[0, all, all, all, all, 1, all, 1, all, 1, all, 0, all, all, all, all]
+[all, all, 1, all, all, 1, all, 1, all, all, all, all, 4, all, all, all]
+[all, all, 1, all, 0, 1, all, all, 1, all, all, 0, all, all, all, 0]
+[0, all, all, all, all, 1, all, 1, all, all, all, all, 4, all, all, all]
+[0, all, all, all, all, 1, all, all, 1, all, all, all, 4, all, all, all]
+[0, all, all, all, all, 1, all, all, all, 1, all, all, 4, all, all, all]
+[all, all, all, 0, all, 1, all, 1, all, all, all, all, 4, all, all, all]
+[all, all, all, 0, all, 1, all, all, 1, all, all, all, 4, all, all, all]
+[all, all, all, 0, all, 1, all, all, all, 1, all, all, 4, all, all, all]
+[all, all, all, all, all, 1, all, 1, all, all, all, all, 4, all, all, 0]
+[all, all, all, all, all, 1, all, all, 1, all, all, all, 4, all, all, 0]
+[all, all, all, all, all, 1, all, all, all, 1, all, all, 4, all, all, 0]
+[0, 0, 1, all, all, 1, all, all, 1, all, all, 0, all, all, all, all]
+[all, 0, 1, 0, all, 1, all, all, 1, all, all, 0, all, all, all, all]
+[all, 0, 1, all, all, 1, all, all, 1, all, all, 0, all, all, all, 0]
+
+*****For Class = 6*****
+Specific Boundary for Class 6
+[all, 0, 1, 0, all, 0, all, 0, 0, 1, all, 0, 6, 0, all, 0]
+Generic Boundary for Class 6
+[all, all, all, all, all, 0, all, all, all, all, all, all, 6, all, all, all]
+[all, all, all, all, all, all, all, all, all, 1, all, all, 6, all, all, all]
+
+*****For Class = 7*****
+Current Specific Boundary: [0, 0, all, 0, 0, all, all, 0, 0, all, all, 0, all, all, 0, all]
+INCONSISTENT DATA: [0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 6, 0, 0, 0, 6]
+Concept cannot be learned
