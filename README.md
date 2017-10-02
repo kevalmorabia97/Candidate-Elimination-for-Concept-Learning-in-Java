@@ -21,9 +21,7 @@ Class# Set of animals:
         scorpion, seawasp, slug, starfish, worm
 
 Number of Instances: 101
-
 Number of Attributes: 17 (15 Boolean attributes, 2 numerics)
-
 Attribute Information: (name of attribute and type of value domain)
    1. hair		Boolean
    2. feathers		Boolean
@@ -42,10 +40,10 @@ Attribute Information: (name of attribute and type of value domain)
   15. domestic		Boolean
   16. catsize		Boolean
   17. type		Numeric (integer values in range [1,7])
-
 Missing Attribute Values: None
 ```
 <hr>
+
 ```
 Training Data:
 1,0,0,1,0,0,1,1,1,1,0,0,4,0,0,1,1
@@ -58,11 +56,6 @@ Training Data:
 0,0,1,0,0,1,0,1,1,0,0,1,0,1,1,0,4
 0,0,1,0,0,1,1,1,1,0,0,1,0,1,0,0,4
 1,0,0,1,0,0,0,1,1,1,0,0,4,0,1,0,1
-1,0,0,1,0,0,1,1,1,1,0,0,4,1,0,1,1
-0,1,1,0,1,0,0,0,1,1,0,0,2,1,1,0,2
-0,0,1,0,0,1,1,1,1,0,0,1,0,1,0,0,4
-0,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,7
-...
 ...
 ...
 ```
